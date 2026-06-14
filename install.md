@@ -32,8 +32,8 @@ publia auth login
 publia auth whoami --json
 ```
 
-如果你希望 AI 助手在无法打开浏览器的环境里使用 Publia，可以在 Publia 网页的 CLI 页面签发 Token，然后设置环境变量。
-服务地址默认已经是 `https://getpublia.com`，通常不需要设置 `PUBLIA_URL`。
+如果你希望 AI 助手在无法打开浏览器的环境里使用 Publia，可以在 Publia 网页的 设置 → 开发者 页面签发 Token，然后设置环境变量。
+服务地址默认已经是 `https://publia.ai`，通常不需要设置 `PUBLIA_URL`。
 
 ```bash
 export PUBLIA_TOKEN=publia_xxx
