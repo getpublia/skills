@@ -1,0 +1,23 @@
+{
+  "name": "getpublia",
+  "description": "Publia agent skills — publish anything you make to a live, shareable link.",
+  "owner": {
+    "name": "Publia",
+    "email": "hello@publia.ai"
+  },
+  "plugins": [
+    {
+      "name": "publia",
+      "source": "./",
+      "description": "Publish webpages, Markdown, and images to the web and hand back a live shareable URL. The agent runs the whole upload flow itself; the user only ever sees the final link.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Publia",
+        "email": "hello@publia.ai"
+      },
+      "homepage": "https://publia.ai",
+      "category": "productivity",
+      "tags": ["publishing", "hosting", "web", "share", "deploy", "static-site", "markdown"]
+    }
+  ]
+}

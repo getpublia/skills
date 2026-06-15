@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "publia",
+  "displayName": "Publia",
+  "version": "0.1.0",
+  "description": "Publish webpages, Markdown, and images to the web via the publia CLI and hand back a live shareable URL. The agent runs the whole flow itself; the user only ever sees the final link.",
+  "author": {
+    "name": "Publia",
+    "email": "hello@publia.ai",
+    "url": "https://publia.ai"
+  },
+  "homepage": "https://publia.ai",
+  "repository": "https://github.com/getpublia/skills",
+  "license": "MIT",
+  "keywords": ["publishing", "hosting", "web", "share", "deploy", "static-site", "markdown"]
+}
